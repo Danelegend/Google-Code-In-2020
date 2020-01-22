@@ -1,0 +1,6 @@
+Encapsulation:
+Encapsulation is a way of privatising data so that it may not be accessed outside of the class it has been defined in. This reduces
+the exposure of data to outside classes.
+
+Although if an outside class requires privitised data it may be collected through the use of getters and setters. This means that 
+encapsulation requires slightly more computational power to get and set data.
