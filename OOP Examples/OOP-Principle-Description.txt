@@ -4,3 +4,12 @@ the exposure of data to outside classes.
 
 Although if an outside class requires privitised data it may be collected through the use of getters and setters. This means that 
 encapsulation requires slightly more computational power to get and set data.
+
+Inheritance:
+Inerhitance allows a child object to inherit all the behaviours and properties of their parent object. When inheriting from a
+parent object, any children will be given access to all the unencapsulated properities and behaviours. This is a useful way of
+achieving code reusability and allowing multiple objects (classes) to use the same code without having to rewrite it.
+
+As there is a strong relation between parent and child objects, any change to the parent class immediatly effect the child class. 
+This means that if the parent class is changed, all child classes will obtain the same change even if not wanted.
+
