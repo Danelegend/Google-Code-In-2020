@@ -8,8 +8,30 @@ encapsulation requires slightly more computational power to get and set data.
 Inheritance:
 Inerhitance allows a child object to inherit all the behaviours and properties of their parent object. When inheriting from a
 parent object, any children will be given access to all the unencapsulated properities and behaviours. This is a useful way of
-achieving code reusability and allowing multiple objects (classes) to use the same code without having to rewrite it.
+achieving code reusability and allowing multiple objects (classes) to use the same code without having to rewrite it. This relationship is known as a parent-child relation or a "is-a" relation.
 
 As there is a strong relation between parent and child objects, any change to the parent class immediatly effect the child class. 
 This means that if the parent class is changed, all child classes will obtain the same change even if not wanted.
 
+Polymorphism:
+Polymorphism is an object's ability to take up different object forms. An object may be defined as polymorphic if it passes more than
+one IS-A tests. This is most prominent in inheritance as a variable referenced as a child class may also be referenced as a parent 
+class. Polymorphism is useful as it allows programmers to reuse code and classes previously written. It also allows for a single 
+variable name to store variables of multiple data types. 
+
+Although polymorphism can be useful, it is often difficult to implement it within code.
+
+Compile-Time Polymorphism:
+
+
+Runtime Polymorphism:
+
+
+Abstraction:
+Abstraction is way of only revealing required characteristics of an object. When using abstraction, only the functionality is 
+provided. This helps to increase the security of the program. Abstraction is useful as it helps negate code duplication while helping 
+to support polymorphism. Additionaly, it alsohelps with code reusability. This helps to reduce the complexity in which the program 
+may be viewed.
+
+Despite abstractions usefulness, it must handle cases which may not always be necissary. This typically reduces the speed of which
+a program performs at. Furthermore, the extra code required for abstraction increases the size of the code.
