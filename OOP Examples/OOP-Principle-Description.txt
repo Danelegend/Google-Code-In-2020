@@ -25,6 +25,10 @@ Compile-Time Polymorphism:
 
 
 Runtime Polymorphism:
+Runtime polymorphism is the process of called an overridden method through a reference varialbe of a superclass. The method 
+referenced is determined based on the reference of the variable. Example: if a method is in a parent and child class and the 
+reference variable is that of the child class, the method will be called from the child class rather than the parent class.
+This is useful as it override methods are resolved at runtime rather than compile-time.
 
 
 Abstraction:
