@@ -14,15 +14,16 @@ As there is a strong relation between parent and child objects, any change to th
 This means that if the parent class is changed, all child classes will obtain the same change even if not wanted.
 
 Polymorphism:
-Polymorphism is an object's ability to take up different object forms. An object may be defined as polymorphic if it passes more than
-one IS-A tests. This is most prominent in inheritance as a variable referenced as a child class may also be referenced as a parent 
-class. Polymorphism is useful as it allows programmers to reuse code and classes previously written. It also allows for a single 
-variable name to store variables of multiple data types. 
+Polymorphism is an object's ability to take up different object forms. An object may be defined as polymorphic if it passes more than one IS-A tests. This is most prominent in inheritance as a variable referenced as a child class may also be referenced as a parent class. Polymorphism is useful as it allows programmers to reuse code and classes previously written. It also allows for a single variable name to store variables of multiple data types. 
 
-Although polymorphism can be useful, it is often difficult to implement it within code.
+Although polymorphism can be useful, it is often difficult to implement it within code. It also reduces the readability of a 
+program.
 
 Compile-Time Polymorphism:
-
+Compile-time polymorphism is a type of polymorphism that is resolved during the compile time. Compile-time polymorphism allows for 
+method overloading. This allows more than one method to have the same name as long as the parameters are different in number, 
+sequence and data types. This is useful as it allows you to define multiple constructors which allows for multiple ways the 
+initialise an object.
 
 Runtime Polymorphism:
 Runtime polymorphism is the process of called an overridden method through a reference varialbe of a superclass. The method 
@@ -30,6 +31,8 @@ referenced is determined based on the reference of the variable. Example: if a m
 reference variable is that of the child class, the method will be called from the child class rather than the parent class.
 This is useful as it override methods are resolved at runtime rather than compile-time.
 
+Despite the positives, run time polymorphism may lead to performance issues as the machine must decide which method or variable to 
+call. Compile times, readability and debuggability also becomes much worse.
 
 Abstraction:
 Abstraction is way of only revealing required characteristics of an object. When using abstraction, only the functionality is 
